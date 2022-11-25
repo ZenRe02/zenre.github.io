@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table Using HTML, CSS and JavaScript - ZenRe</title>
+  <!-- Built By ZenRe/ -->
+  <!-- Built By ZenRe/ -->
+  <!-- Built By ZenRe/ -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Our Pricing</h1>
+    <div class="toggle">
+      <label>Annually </label>
+      <div class="toggle-btn">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label class="sub" id="sub" for="checkbox">
+          <div class="circle"></div>
+        </label>
+      </div>
+      <label> Monthly</label>
+    </div>
+  </header>
+  <div class="cards">
+    <div class="card shadow">
+      <ul>
+        <li class="pack">StartUp</li>
+        <li id="StartUp" class="price bottom-bar">&dollar;10.99</li>
+        <li class="bottom-bar">1 Website</li>
+        <li class="bottom-bar">Free SSL</li>
+        <li class="bottom-bar">Free Business Email</li>
+        <li class="bottom-bar">Web Hosting</li>
+        <li><button class="btn">Get Started</button></li>
+      </ul>
+    </div>
+    <div class="card active">
+      <ul>
+        <li class="pack">Premium</li>
+        <li id="Premium" class="price bottom-bar">&dollar;15.99</li>
+        <li class="bottom-bar">5 Websites</li>
+        <li class="bottom-bar">Free SSL</li>
+        <li class="bottom-bar">5 Business Emails</li>
+        <li class="bottom-bar">Ecommerce Enabled</li>
+        <li><button class="btn active-btn">Get Started</button></li>
+      </ul>
+    </div>
+    <div class="card shadow">
+      <ul>
+        <li class="pack">Enterprise</li>
+        <li id="Enterprise" class="price bottom-bar">&dollar;59.99</li>
+        <li class="bottom-bar">Unlimted Websites</li>
+        <li class="bottom-bar">Free SSL</li>
+        <li class="bottom-bar">Unlimited Business Emails</li>
+        <li class="bottom-bar">24/7 Support</li>
+        <li><button class="btn">Get Started</button></li>
+      </ul>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
